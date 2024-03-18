@@ -1,13 +1,17 @@
+[core]
+  editor = nvim
 [user]
-	email = matheus.oliveira.s@protonmail.com
-	name = matheusinit
+  username = matheusinit
+  email = matheus.oliveira.s@protonmail.com
 [color]
-	ui = auto
+  ui = auto
+[init]
+  defaultBranch = main
 [alias]
-	s = !git status -s
-	c = !git add --all && git commit -m
+  s = !git status -s
+  a = !git add --all
+  ap = !git add --patch
+	c = !git commit -m
 	l = !git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
 	co = !git checkout
-	b = !git branch
-[init]
-	defaultBranch = main
+	b = !git branch[core]
